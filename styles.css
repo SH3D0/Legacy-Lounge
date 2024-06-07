@@ -42,7 +42,8 @@ nav {
   background-color: var(--theme-color); /* Semi-transparent background for the navbar */
   padding: 10px 15px;
   width: 98%;
-  position: relative; /* Ensure it stays on top of the background image */
+  position: fixed;
+  top: 0; /* Ensure it stays on top of the background image */
   z-index: 10; /* Keep it above other elements */
 }
 
